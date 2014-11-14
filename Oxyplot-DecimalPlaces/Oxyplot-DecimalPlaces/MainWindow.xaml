@@ -1,0 +1,10 @@
+﻿<Window x:Class="Oxyplot_DecimalPlaces.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:oxy="http://oxyplot.org/wpf"
+        Title="Decimal Place" Height="500" Width="700"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <oxy:PlotView Model="{Binding Path=PlotModel}"/>
+    </Grid>
+</Window>
