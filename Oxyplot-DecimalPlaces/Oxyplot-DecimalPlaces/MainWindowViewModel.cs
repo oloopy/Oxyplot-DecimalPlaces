@@ -27,7 +27,7 @@ namespace Oxyplot_DecimalPlaces
         {
             var data = new List<Data>();
 
-            using (var streamReader = new StreamReader("VehicleSpeed-CumulativeDistributionFunction.csv"))
+            using (var streamReader = new StreamReader(@"../../VehicleSpeed-CumulativeDistributionFunction.csv"))
             {
                 string recordLine;
                 while (!string.IsNullOrEmpty(recordLine = streamReader.ReadLine()))
